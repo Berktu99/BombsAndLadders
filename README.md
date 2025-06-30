@@ -3,9 +3,9 @@
 This is a complete and functional hyper-casual game template built with Unity 6.  
 It includes a working AI opponent, a customization system, and a save system — everything needed to kickstart a mobile hyper-casual game.
 
-![screenshot1](Recordings/ss1.png)
-![screenshot1](Recordings/ss2.png)
-![screenshot1](Recordings/ss3.png)
+![Screenshot 1](Recordings/ss1.png)
+![Screenshot 2](Recordings/ss2.png)
+![Screenshot 3](Recordings/ss3.png)
 
 ---
 
