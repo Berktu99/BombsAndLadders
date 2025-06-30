@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8344671946847073603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8344671946847073601}
+  - component: {fileID: 8344671946847073600}
+  m_Layer: 0
+  m_Name: Unlocker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8344671946847073601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8344671946847073603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8344671946847073600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8344671946847073603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f1183f6f305cb4a9a6e536f2c69128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _saveStateChange: {fileID: 11400000, guid: 333fce90f38f469478943097cd3e1744, type: 2}
+  _goldAmount: {fileID: 11400000, guid: aba5a94b8044bcf43bdaabebe0c6b3f0, type: 2}
+  _characterSkinsUnlocked: {fileID: 11400000, guid: 822853a87c1f0be428e0a906fe53de10, type: 2}
+  _pickUpSkinsUnlocked: {fileID: 11400000, guid: 5961ce98b4bfcb24585a1c30ca382fd2, type: 2}
+  _bombSkinsUnlocked: {fileID: 11400000, guid: 2007b87d45addc049bb204c34d24ace9, type: 2}
+  _colorSkinsUnlocked: {fileID: 11400000, guid: aa77ae97cbd79ca419b7bbeba9b5b8bd, type: 2}
+  _mapsUnlocked: {fileID: 11400000, guid: bf37128cacd3b0749859c2de7877b429, type: 2}

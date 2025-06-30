@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6568137158937092784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6568137158937092799}
+  - component: {fileID: 6568137158937092798}
+  - component: {fileID: 7491845570311003995}
+  - component: {fileID: 3930974221276012095}
+  - component: {fileID: 6568137158270413097}
+  - component: {fileID: 6568137158270413099}
+  - component: {fileID: 6568137158270413147}
+  - component: {fileID: 1242301739280565262}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6568137158937092799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568137158937092784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1577523819804444929}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6568137158937092798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568137158937092784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec97d416613686842b6b2e96acded54e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneHandler: {fileID: 8172473879682344753}
+  goldEarned: {fileID: 11400000, guid: 3f07e9a9e98b1ae418816dc3ad524313, type: 2}
+  OnStartGame_ObjPooler: {fileID: 11400000, guid: 22a14520a30beaf44a2712e8cb4d64bd, type: 2}
+  OnStartGame_UIManager: {fileID: 11400000, guid: cbef11fed362a0b478d083d6c1a7528a, type: 2}
+  OnPauseGame_UIManager: {fileID: 11400000, guid: 38dbf2d817336434e915e426fc6d7719, type: 2}
+  OnResumeGame_UIManager: {fileID: 11400000, guid: 2b4d258d40cbb5949bb67239b58e3f5b, type: 2}
+  OnStopGame_UIManager: {fileID: 11400000, guid: 968b9e0590eb1bd4186a1e2b09a9014c, type: 2}
+  OnPlayerWon_UIManager: {fileID: 11400000, guid: 86f34e48195392442be2937ce48c679f, type: 2}
+  OnPlayerLost_UIManager: {fileID: 11400000, guid: a7ea1ac35bed1054eaa627843e9a44b1, type: 2}
+  OnPlayerEliminated_UIManager: {fileID: 11400000, guid: ab796f51c637923439a233f11b191592, type: 2}
+  OnStartGame_LevelManager: {fileID: 11400000, guid: ffd33bdfc7ac443478bb253f2a27f16e, type: 2}
+  OnResumeGame_LevelManager: {fileID: 11400000, guid: 12fd4a3b76ee3ee44939dffc01fed72d, type: 2}
+  OnStopGame_LevelManager: {fileID: 11400000, guid: 547b0a67ca757654497e531751829a46, type: 2}
+  OnPlayerWon_LevelManager: {fileID: 11400000, guid: 52f79b83e8a08a14d9b7bf499768ca89, type: 2}
+  OnPlayerLost_LevelManager: {fileID: 11400000, guid: 5e365eb043fc8b349a862e2c2aa56ce0, type: 2}
+  OnPlayerEliminated_LevelManager: {fileID: 11400000, guid: dd65b27dae6d7d440a86af9eff41ce05, type: 2}
+--- !u!114 &7491845570311003995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568137158937092784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f311c6f9c2f8e44db65c26626314a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: fb73df1de205fc642b97925eaa48e305, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6568137158937092798}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Event_OnTapToPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3930974221276012095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568137158937092784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f311c6f9c2f8e44db65c26626314a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 06b8a0b45b8e4cf4298b4b0ce7a80740, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6568137158937092798}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Event_OnPlayerEliminated
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6568137158270413097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568137158937092784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f311c6f9c2f8e44db65c26626314a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 68d3b49351aa82e4188988052030086f, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6568137158937092798}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Event_OnPlayerWonRace
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6568137158270413099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568137158937092784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f311c6f9c2f8e44db65c26626314a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 3f088a5d0675da9489b74153e2be3070, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6568137158937092798}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Event_OnPlayerLostRace
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6568137158270413147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568137158937092784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f311c6f9c2f8e44db65c26626314a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: bc52a94a81883ce42af3002ae315af03, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6568137158937092798}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Event_OnContinueLevelAdWatched
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1242301739280565262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568137158937092784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f311c6f9c2f8e44db65c26626314a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 44ae1fc8f6aec3944b4fdda64db22b40, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6568137158937092798}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Event_OnLoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &6800052706329071233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577523819804444929}
+  - component: {fileID: 8172473879682344753}
+  m_Layer: 0
+  m_Name: SceneHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1577523819804444929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6800052706329071233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6568137158937092799}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8172473879682344753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6800052706329071233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275354c766b02db4298ea4c271ec49e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveStateChangeEvent: {fileID: 11400000, guid: 333fce90f38f469478943097cd3e1744, type: 2}
+  currentMapCleared: {fileID: 11400000, guid: cfb351291df7d63439c4367af8772b88, type: 2}
+  notUpdated_currentMapCleared: {fileID: 11400000, guid: 5cfcc3c4327985b4b857d1e7b0311079, type: 2}
+  updated_currentMapCleared: {fileID: 11400000, guid: dab9fe8926bb21842840420527d215c4, type: 2}
+  _activeMapIndex: {fileID: 11400000, guid: 2d4260be484830f4090855ee0e4d60cc, type: 2}
+  _mapsUnlocked: {fileID: 11400000, guid: bf37128cacd3b0749859c2de7877b429, type: 2}
+  _mapsUnlocked_NotUpdated: {fileID: 11400000, guid: ea29a9e373873be479203a44d5bc871e, type: 2}
+  earnedGold: {fileID: 11400000, guid: 3f07e9a9e98b1ae418816dc3ad524313, type: 2}
+  currentGoldAmount: {fileID: 11400000, guid: aba5a94b8044bcf43bdaabebe0c6b3f0, type: 2}
+  currentRewardPercent: {fileID: 11400000, guid: bf56254c427de3e488716b7a551298f4, type: 2}

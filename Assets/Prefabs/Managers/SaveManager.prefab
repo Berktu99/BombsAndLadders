@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8404979729934575396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8404979729934575384}
+  - component: {fileID: 8404979729934575385}
+  - component: {fileID: 8404979729934575387}
+  m_Layer: 0
+  m_Name: SaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8404979729934575384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404979729934575396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 540, y: 960, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 92761206047204581}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8404979729934575385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404979729934575396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a916c1c7d893cfb459488309b10e78ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveState:
+    goldAmount: 0
+    playerName: Player
+    _characterSkinsUnlocked: 1
+    _characterSkinActiveIndex: 0
+    _pickUpSkinsUnlocked: 1
+    _pickUpSkinActiveIndex: 0
+    _bombSkinsUnlocked: 1
+    _bombSkinActiveIndex: 0
+    _colorSkinsUnlocked: 1
+    _colorSkinActiveIndex: 0
+    mapClearRequirement: 3
+    allMapsClearedArray: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    _mapsUnlocked: 1
+    _mapActiveIndex: 0
+    rewardPercent: 0
+    isMuteToggledOn: 0
+    isVibrateToggledOn: 1
+    adsAreActive: 0
+    paidToRemoveAds: 0
+    devAuthAdsRemoval: 1
+  shouldResetSave: 1
+  saveStateObject: {fileID: 11400000, guid: 49882bc0e20581942b8c25f3aef00c3f, type: 2}
+  allSkins: {fileID: 11400000, guid: 1d38dcff35054f0409786704f60e1297, type: 2}
+  maps: {fileID: 11400000, guid: fcda2fea4d0ac8e4292f38ca1c2ff012, type: 2}
+  updateGoldAmountText: {fileID: 11400000, guid: e8e0b5f81836bf941b2a0a8d03c34c9e, type: 2}
+  shouldForceActivateAds: {fileID: 11400000, guid: 7f5ddf004fdfccd48b4fc1f18e32c043, type: 2}
+--- !u!114 &8404979729934575387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404979729934575396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e9927d7bdd29e4387152ff23760044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 333fce90f38f469478943097cd3e1744, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8404979729934575385}
+        m_TargetAssemblyTypeName: SaveManagerNewNew, Assembly-CSharp
+        m_MethodName: changeSaveState
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1001 &8252766324357190052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8404979729934575384}
+    m_Modifications:
+    - target: {fileID: 8344671946847073600, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: _saveManager
+      value: 
+      objectReference: {fileID: 8404979729934575385}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344671946847073603, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+      propertyPath: m_Name
+      value: Unlocker
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+--- !u!4 &92761206047204581 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8344671946847073601, guid: 1b25d70ccec736944b5a8bcad318c50b, type: 3}
+  m_PrefabInstance: {fileID: 8252766324357190052}
+  m_PrefabAsset: {fileID: 0}

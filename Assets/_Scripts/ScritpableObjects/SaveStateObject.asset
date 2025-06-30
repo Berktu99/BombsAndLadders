@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7ffdf7810f93e4f81446405c4e0b45, type: 3}
+  m_Name: SaveStateObject
+  m_EditorClassIdentifier: 
+  _goldAmount: {fileID: 11400000, guid: aba5a94b8044bcf43bdaabebe0c6b3f0, type: 2}
+  _currentRewardPercent: {fileID: 11400000, guid: bf56254c427de3e488716b7a551298f4, type: 2}
+  _playerName: {fileID: 11400000, guid: 9e93d31c7a2379f4c89b034993e82af7, type: 2}
+  _characterSkinsUnlocked: {fileID: 11400000, guid: 822853a87c1f0be428e0a906fe53de10, type: 2}
+  _characterSkinActiveIndex: {fileID: 11400000, guid: 38b2ba72baab426418e7c5e9c99741d0, type: 2}
+  _pickUpSkinsUnlocked: {fileID: 11400000, guid: 5961ce98b4bfcb24585a1c30ca382fd2, type: 2}
+  _pickUpSkinActiveIndex: {fileID: 11400000, guid: 662bb7fc0e84fb14d85475773164eaf3, type: 2}
+  _bombSkinsUnlocked: {fileID: 11400000, guid: 2007b87d45addc049bb204c34d24ace9, type: 2}
+  _bombSkinActiveIndex: {fileID: 11400000, guid: 802cd44f858e84e4cbaaba2343581dcb, type: 2}
+  _colorSkinsUnlocked: {fileID: 11400000, guid: aa77ae97cbd79ca419b7bbeba9b5b8bd, type: 2}
+  _colorSkinActiveIndex: {fileID: 11400000, guid: a887a489042cd96499308417b6db6bce, type: 2}
+  _mapClearRequirement: {fileID: 11400000, guid: 85851d5f4af10c946bdc09675ce033d0, type: 2}
+  _currentMapClearedTimes: {fileID: 11400000, guid: cfb351291df7d63439c4367af8772b88, type: 2}
+  _mapsUnlocked: {fileID: 11400000, guid: bf37128cacd3b0749859c2de7877b429, type: 2}
+  _mapActiveIndex: {fileID: 11400000, guid: 2d4260be484830f4090855ee0e4d60cc, type: 2}
+  isMuteToggledOn: {fileID: 11400000, guid: 02e30855dc91a6f4896370f110cd0291, type: 2}
+  isVibrateToggledOn: {fileID: 11400000, guid: ba40fbf912c760a468f741f237fe561e, type: 2}
+  adsAreActive: {fileID: 11400000, guid: 4e9fb2913eafeeb409363886c6bccc2c, type: 2}
+  paidToRemoveAds: {fileID: 11400000, guid: 1db94ad22bb30ef42ba21749f034844b, type: 2}
+  devAuthAdsRemoval: {fileID: 11400000, guid: 14af958c6b808f649aacf7578495b086, type: 2}

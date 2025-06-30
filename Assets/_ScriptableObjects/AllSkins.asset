@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729da717379775e48a79fc7cf0f13a8c, type: 3}
+  m_Name: AllSkins
+  m_EditorClassIdentifier: 
+  characterSkins: {fileID: 11400000, guid: dd38ecc27ecd617499ebeef7649c0cab, type: 2}
+  pickUpSkins: {fileID: 11400000, guid: 0307e0c6d8ed1454198142814f4fc053, type: 2}
+  bombSkins: {fileID: 11400000, guid: 19bb9b19c7787d64b9af4f05af2a055e, type: 2}
+  colorSkins: {fileID: 11400000, guid: 59e877c93e8f364409235f995bc0ce54, type: 2}
+  maps: {fileID: 11400000, guid: fcda2fea4d0ac8e4292f38ca1c2ff012, type: 2}

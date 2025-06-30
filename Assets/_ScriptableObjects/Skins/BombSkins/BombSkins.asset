@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a328d6c030896546b9c8cd67a84f2aa, type: 3}
+  m_Name: BombSkins
+  m_EditorClassIdentifier: 
+  availableSkins:
+  - name: default
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 21300000, guid: 12d3c0ffd0a9b2c47be2dc9369ab8048, type: 3}
+    skinPrefab: {fileID: 919132149155446097, guid: 769289c78a916cc40a86dfc18aa350fc, type: 3}
+    pulseLocalScale: {x: 2.2, y: 2.2, z: 2.2}
+  - name: pumpkin
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 100
+    sprite: {fileID: 21300000, guid: 0c9c6106a69c3b942a805ae0a3ae5c4b, type: 3}
+    skinPrefab: {fileID: 919132149155446097, guid: efd067b73b2d2ae4abf419a83671db3e, type: 3}
+    pulseLocalScale: {x: 3, y: 2.2, z: 3}
+  workInProgressSkins:
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinPrefab: {fileID: 0}
+    pulseLocalScale: {x: 0, y: 0, z: 0}
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinPrefab: {fileID: 0}
+    pulseLocalScale: {x: 0, y: 0, z: 0}
+  comingSoonSkins:
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinPrefab: {fileID: 0}
+    pulseLocalScale: {x: 0, y: 0, z: 0}
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinPrefab: {fileID: 0}
+    pulseLocalScale: {x: 0, y: 0, z: 0}
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinPrefab: {fileID: 0}
+    pulseLocalScale: {x: 0, y: 0, z: 0}

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709a3261dc2088145a6778af400520e2, type: 3}
+  m_Name: HumanoidSkins
+  m_EditorClassIdentifier: 
+  availableSkins:
+  - name: default
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 21300000, guid: c0a1bc19735e45245b31d3cf12a6eada, type: 3}
+    skinType: 0
+    pickupPackPos: {x: 0, y: 0, z: 0}
+    skinPrefab: {fileID: 1768988405742319224, guid: 19986be3fb74fc642ac6cdbe08757efc, type: 3}
+    equipSkinEvent: {fileID: 0}
+  - name: eggscelent
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 100
+    sprite: {fileID: 21300000, guid: 6d93ff6d43a212b44b2419fee3b595d9, type: 3}
+    skinType: 0
+    pickupPackPos: {x: 0, y: 0, z: 0}
+    skinPrefab: {fileID: 919132149155446097, guid: 51fdf6b96af9183438ca66865980a212, type: 3}
+    equipSkinEvent: {fileID: 0}
+  - name: cowboy
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 150
+    sprite: {fileID: 21300000, guid: e9cb41dc14db26f419c8c89875673fb7, type: 3}
+    skinType: 0
+    pickupPackPos: {x: 0, y: 0, z: 0}
+    skinPrefab: {fileID: 919132149155446097, guid: c3152ff6eb39cba4fb2799093100e5b9, type: 3}
+    equipSkinEvent: {fileID: 0}
+  - name: hawk-cobrakai
+    isCostVideo: 1
+    videoCost: 2
+    videoWatched: 0
+    cost: 300
+    sprite: {fileID: 21300000, guid: 6912a844b205dde44a05be72ebee3c4e, type: 3}
+    skinType: 1
+    pickupPackPos: {x: 0, y: 0, z: 0}
+    skinPrefab: {fileID: 919132149155446097, guid: fd82dcaf9bf231b47901255ed0a53b4c, type: 3}
+    equipSkinEvent: {fileID: 0}
+  workInProgressSkins:
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinType: 0
+    pickupPackPos: {x: 0, y: 0, z: 0}
+    skinPrefab: {fileID: 0}
+    equipSkinEvent: {fileID: 0}
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinType: 0
+    pickupPackPos: {x: 0, y: 0, z: 0}
+    skinPrefab: {fileID: 0}
+    equipSkinEvent: {fileID: 0}
+  comingSoonSkins:
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinType: 0
+    pickupPackPos: {x: 0, y: 0, z: 0}
+    skinPrefab: {fileID: 0}
+    equipSkinEvent: {fileID: 0}
+  - name: 
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 0
+    sprite: {fileID: 0}
+    skinType: 0
+    pickupPackPos: {x: 0, y: 0, z: 0}
+    skinPrefab: {fileID: 0}
+    equipSkinEvent: {fileID: 0}

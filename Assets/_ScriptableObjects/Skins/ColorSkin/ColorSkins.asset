@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4bc24a3bd1a594fa289ffb7787ec2e, type: 3}
+  m_Name: ColorSkins
+  m_EditorClassIdentifier: 
+  availableSkins:
+  - name: FF6D2F
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4281298431
+  - name: FB3A3A
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4282006266
+  - name: 58FA45
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4282776152
+  - name: FFAE32
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4281446143
+  - name: 25DE88
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4287159588
+  - name: 0b8a8f
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4290688781
+  - name: a884f3
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4294149288
+  - name: A1CCF6
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4294298785
+  - name: FF6286
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4286931455
+  - name: E02961
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4284492256
+  - name: FFF6F9
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4294571775
+  - name: F17CFF
+    isCostVideo: 0
+    videoCost: 0
+    videoWatched: 0
+    cost: 10
+    skinColor:
+      serializedVersion: 2
+      rgba: 4294933744
+  workInProgressSkins: []
+  comingSoonSkins: []
